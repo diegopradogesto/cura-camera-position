@@ -1,0 +1,8 @@
+{
+    "name": "Camera Position",
+    "author": "Diego Prado Gesto",
+    "version": "0.0.1",
+    "description": "Enter the position of the camera and it will rotate and position in this place. Very useful if you want to take screenshots always from the same perspective.",
+    "supported_sdk_versions": ["6.1.0"],
+    "i18n-catalog": "cura"
+}
