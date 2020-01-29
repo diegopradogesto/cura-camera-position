@@ -101,8 +101,11 @@ UM.Dialog
                 right: parent.right
                 margins: parent.padding
             }
-            text: "Camera zoom factor"
-            validator: DoubleValidator {}
+            text: "Camera zoom factor (Orthographic)"
+            validator: DoubleValidator
+            {
+                bottom: -0.4999999999
+            }
         }
 
         Cura.PrimaryButton
