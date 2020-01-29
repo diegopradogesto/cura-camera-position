@@ -36,6 +36,6 @@ class CameraPositionExtension(QObject, Extension):
         Logger.log("d", "Creating Camera Position plugin view.")
 
         # Create the plugin dialog component
-        plugin_path = PluginRegistry.getInstance().getPluginPath("cura-camera-position")
+        plugin_path = PluginRegistry.getInstance().getPluginPath(self.getPluginId())
         path = os.path.join(plugin_path, "resources", "qml", "CameraPositionPanel.qml")
         self._view = CuraApplication.getInstance().createQmlComponent(path, {"manager": self})
